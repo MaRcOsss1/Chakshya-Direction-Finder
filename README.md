@@ -5,24 +5,24 @@ Developed by **Aryan Shah** for research in jamming detection, RF localization, 
 
 ---
 
-## 🔍 Overview
+## Overview
 
 This project enables real-time signal direction estimation using spectrum sweep data, visualizes estimated directions via GUI, and detects potential jamming activities.  
 It also includes basic Wi-Fi Remote ID data acquisition tools.
 
 ---
 
-## ✅ Features
+## Features
 
-- 📡 **2.4GHz Sweep Scanning**: Uses HackRF One to scan and log power levels across the Wi-Fi band.
-- 🎯 **Signal Direction Estimation**: Estimates RF source direction from power peak data.
-- 🖼️ **Tkinter-Based GUI**: Displays real-time direction vectors with live updates.
-- ⚠️ **Jamming Signal Detection**: Monitors for abnormal patterns in sweep logs.
-- 📶 **Wi-Fi RID Logging**: Collects nearby Wi-Fi drone RID packets for basic telemetry.
+- **2.4GHz Sweep Scanning**: Uses HackRF One to scan and log power levels across the Wi-Fi band.
+- **Signal Direction Estimation**: Estimates RF source direction from power peak data.
+- **Tkinter-Based GUI**: Displays real-time direction vectors with live updates.
+- **Jamming Signal Detection**: Monitors for abnormal patterns in sweep logs.
+- **Wi-Fi RID Logging**: Collects nearby Wi-Fi drone RID packets for basic telemetry.
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 - Python 3.8+
 - Libraries: `tkinter`, `matplotlib`, `csv`, `openpyxl`
@@ -36,7 +36,7 @@ pip install matplotlib openpyxl
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### 1. Run a Frequency Sweep
 
@@ -80,7 +80,7 @@ Logs telemetry info broadcasted by drones (if supported).
 
 ---
 
-## 📊 Example Outputs
+## Example Outputs
 
 - **Sweep Data**: Power values across frequency
 - **Estimated Direction**: Angle or relative orientation to RF source
@@ -89,12 +89,12 @@ Logs telemetry info broadcasted by drones (if supported).
 
 ---
 
-## 👤 Author
+## Author
 
 **Aryan Shah**
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
